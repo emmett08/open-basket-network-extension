@@ -1,5 +1,5 @@
 {
-  "name": "open-basket-network-extension",
+  "name": "@neuralsea/open-basket-network-extension",
   "private": true,
   "version": "0.1.0",
   "type": "module",
