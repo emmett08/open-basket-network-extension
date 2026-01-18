@@ -17,3 +17,4 @@ artifacts/
 # Playwright
 playwright/videos/
 playwright/test-results/
+test-results/
