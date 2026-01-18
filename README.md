@@ -46,6 +46,11 @@ The broker is expected to distribute the request to suppliers and manage the mul
 - `npm run test:cypress` runs Cypress in Chrome and records MP4 videos in `cypress/videos/`.
 - `npm run test:cypress:open` opens the interactive Cypress runner.
 
+## Persona videos (MP4)
+
+- `npm run personas:videos` records “human-paced” Playwright journeys into `artifacts/persona-videos/` as `.webm`.
+- `npm run personas:mp4` converts those `.webm` files to `.mp4` (uses bundled `ffmpeg-static`).
+
 ## Publish (zip)
 
 - `npm run publish` builds into `dist/` and writes a versioned zip to `release/`.
