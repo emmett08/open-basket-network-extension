@@ -1,0 +1,13 @@
+{
+  "type": "FulfilmentEvent",
+  "version": "0.1",
+  "eventId": "fev_01J3EXAMPLE",
+  "awardId": "award_01J3EXAMPLE",
+  "sellerId": "seller_grocerymart_001",
+  "status": "DISPATCHED",
+  "occurredAt": "2026-01-18T00:10:00Z",
+  "evidence": {
+    "trackingNumber": "TRACK123",
+    "carrier": "Royal Mail"
+  }
+}

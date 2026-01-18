@@ -1,0 +1,37 @@
+{
+  "type": "OfferResponse",
+  "version": "0.1",
+  "responseId": "resp_01J3EXAMPLE",
+  "requestId": "req_01J3EXAMPLE",
+  "basketId": "basket_01J3EXAMPLE",
+  "seller": {
+    "sellerId": "seller_grocerymart_001",
+    "displayName": "GroceryMart",
+    "capabilities": ["ship"]
+  },
+  "offers": [
+    {
+      "offerId": "offer_1001",
+      "covers": [
+        {
+          "basketItemId": "item_1",
+          "coverage": "partial",
+          "recipeFulfilment": {
+            "strategy": "minimal-set",
+            "providedIngredients": [
+              {"name": "flour", "sku": "sku_flour_1kg", "quantity": 1, "unitPrice": {"amount": "1.20", "currency": "GBP"}},
+              {"name": "eggs", "sku": "sku_eggs_6", "quantity": 1, "unitPrice": {"amount": "2.10", "currency": "GBP"}}
+            ],
+            "missingIngredients": [{"name": "milk"}]
+          }
+        }
+      ],
+      "fulfilment": {
+        "mode": "ship",
+        "estimatedDispatchDays": 1,
+        "shippingPrice": {"amount": "3.50", "currency": "GBP"}
+      },
+      "validUntil": "2026-01-18T00:05:00Z"
+    }
+  ]
+}

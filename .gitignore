@@ -1,0 +1,19 @@
+node_modules/
+.DS_Store
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Build artifacts
+dist-test-extension/
+dist/
+release/
+artifacts/
+
+# VSCode + Chrome debug profile
+.vscode/chrome-profile/
+
+# Playwright
+playwright/videos/
+playwright/test-results/

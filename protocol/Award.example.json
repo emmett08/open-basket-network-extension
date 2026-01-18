@@ -1,0 +1,13 @@
+{
+  "type": "Award",
+  "version": "0.1",
+  "awardId": "award_01J3EXAMPLE",
+  "basketId": "basket_01J3EXAMPLE",
+  "requestId": "req_01J3EXAMPLE",
+  "selectedOfferIds": ["offer_1001"],
+  "payment": {
+    "mode": "escrow",
+    "escrowReference": "esc_01J3EXAMPLE",
+    "capturePolicy": "capture_on_dispatch"
+  }
+}

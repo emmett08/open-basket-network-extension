@@ -1,0 +1,35 @@
+{
+  "type": "OfferRequest",
+  "version": "0.1",
+  "requestId": "req_01J3EXAMPLE",
+  "basketId": "basket_01J3EXAMPLE",
+  "issuedAt": "2026-01-18T00:00:00Z",
+  "expiresAt": "2026-01-18T00:05:00Z",
+  "buyerContext": {
+    "currency": "GBP",
+    "deliveryRegion": "GB-LND"
+  },
+  "items": [
+    {
+      "basketItemId": "item_1",
+      "schemaType": "Recipe",
+      "quantity": 1,
+      "source": {
+        "url": "https://recipes.example/pancakes",
+        "pageTitle": "Vanilla & Berry Pancakes",
+        "detectedId": ""
+      },
+      "entity": {
+        "@type": "Recipe",
+        "name": "Vanilla & Berry Pancakes",
+        "recipeIngredient": ["flour", "eggs", "milk"]
+      },
+      "derivedNeeds": {
+        "kind": "ingredient-set",
+        "minimise": true,
+        "substitutionsAllowed": true,
+        "items": [{"name": "flour"}, {"name": "eggs"}, {"name": "milk"}]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "BasketSnapshot",
+  "version": "0.1",
+  "basketId": "local_01J3EXAMPLE",
+  "createdAt": "2026-01-18T00:00:00Z",
+  "updatedAt": "2026-01-18T00:00:00Z",
+  "generatedAt": "2026-01-18T00:01:00Z",
+  "buyerContext": {
+    "currency": "GBP",
+    "deliveryRegion": "GB-LND"
+  },
+  "items": [
+    {
+      "basketItemId": "item_1",
+      "schemaType": "Product",
+      "quantity": 2,
+      "extractedFrom": "json-ld",
+      "source": {
+        "url": "https://shop.example/widget",
+        "pageTitle": "Widget",
+        "detectedId": "urn:sku:ABC-001"
+      },
+      "title": "Widget",
+      "derivedNeeds": null,
+      "entity": {
+        "@type": "Product",
+        "name": "Widget",
+        "gtin": "000000000000"
+      }
+    }
+  ]
+}
