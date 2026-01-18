@@ -36,7 +36,9 @@ async function main() {
   for (const s of shots) {
     await page.goto(s.url, { waitUntil: 'domcontentloaded' });
     await page.setViewportSize({ width: s.name === 'popup' ? 420 : 1280, height: s.name === 'popup' ? 720 : 900 });
-    await page.waitForTimeout(300);
+    // Give you time to visually review each page before the screenshot is taken / we move on.
+    const delayMs = Number(process.env.OBN_SCREEN_DELAY_MS || 5000);
+    await page.waitForTimeout(delayMs);
     await page.screenshot({ path: path.join(outDir, `${s.name}.png`), fullPage: true });
   }
 
@@ -46,4 +48,3 @@ async function main() {
 }
 
 await main();
-
