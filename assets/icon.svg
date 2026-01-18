@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#bg)"/>
+
+  <g fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <!-- Basket -->
+    <path d="M72 116h112l-12 88H84l-12-88z"/>
+    <path d="M92 116l28-44"/>
+    <path d="M164 116l-28-44"/>
+    <path d="M92 148h72"/>
+    <path d="M96 176h64"/>
+
+    <!-- Network dots -->
+    <circle cx="184" cy="72" r="10" fill="#ffffff" stroke="none"/>
+    <circle cx="156" cy="52" r="7" fill="#ffffff" stroke="none" opacity="0.9"/>
+    <circle cx="212" cy="104" r="7" fill="#ffffff" stroke="none" opacity="0.9"/>
+    <path d="M176 64L160 56"/>
+    <path d="M192 80l16 16"/>
+  </g>
+</svg>
+

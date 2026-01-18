@@ -55,6 +55,10 @@ The broker is expected to distribute the request to suppliers and manage the mul
 
 - `npm run publish` builds into `dist/` and writes a versioned zip to `release/`.
 
+## Chrome Web Store assets
+
+- `npm run store:assets` generates listing images into `store/` (store icon, screenshots, promo tiles). Use `STORE_LISTING.md` as a fill-in template for the Web Store form.
+
 ## Configure
 
 Open the extension **Settings** and set:

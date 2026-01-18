@@ -10,6 +10,7 @@ dist-test-extension/
 dist/
 release/
 artifacts/
+store/
 
 # VSCode + Chrome debug profile
 .vscode/chrome-profile/
