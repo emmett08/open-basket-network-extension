@@ -59,6 +59,10 @@ The broker is expected to distribute the request to suppliers and manage the mul
 
 - `npm run store:assets` generates listing images into `store/` (store icon, screenshots, promo tiles). Use `STORE_LISTING.md` as a fill-in template for the Web Store form.
 
+## Privacy
+
+- Privacy policy: `PRIVACY.md`
+
 ## Configure
 
 Open the extension **Settings** and set:

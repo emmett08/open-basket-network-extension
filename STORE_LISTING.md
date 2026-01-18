@@ -20,3 +20,24 @@
 - Support URL: `https://github.com/emmett08/open-basket-network-extension/issues`
 - Official URL: (optional) same as homepage, or your owned domain
 
+## Privacy Policy URL
+
+- Privacy Policy (public): `https://github.com/emmett08/open-basket-network-extension/blob/main/PRIVACY.md`
+
+## Data usage (Chrome Web Store form)
+
+### What user data does the extension collect?
+- Website content: YES (structured data from the current page, only saved when you add items)
+- Web history: YES (source page URL + page title for items you add)
+- Authentication information: OPTIONAL (only if you enter an auth header value/token in Settings)
+- Personally identifiable information: NOT INTENDED (may be present in structured data on some pages; user controls what is added/published)
+- Health information: NO
+- Financial and payment information: NO
+- Personal communications: NO
+- Location: NO (unless you manually enter a delivery region in Settings)
+- User activity: NO (no click/scroll/keystroke logging)
+
+### Certifications
+- I do not sell or transfer user data to third parties, apart from the approved use cases: YES
+- I do not use or transfer user data for purposes unrelated to the item’s single purpose: YES
+- I do not use or transfer user data to determine creditworthiness or for lending purposes: YES
