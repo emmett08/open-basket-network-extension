@@ -29,6 +29,7 @@
     "preview:chrome": "node scripts/launch-chrome.mjs",
     "preview:screens": "node scripts/capture-screens.mjs",
     "store:assets": "node scripts/generate-store-assets.mjs",
+    "store:youtube-thumb:new-user": "node scripts/generate-persona-youtube-thumbnail.mjs",
     "personas:videos": "node scripts/persona-videos.mjs",
     "personas:mp4": "node scripts/persona-videos.mjs && node scripts/convert-persona-videos.mjs",
     "test:e2e": "npm run test:extension:build && playwright test && node scripts/convert-videos.mjs",
